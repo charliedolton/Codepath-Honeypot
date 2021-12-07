@@ -4,17 +4,22 @@
 
 **Objective:** Create a honeynet using MHN-Admin. Present your findings as if you were requested to give a brief report of the current state of Internet security. Assume that your audience is a current employer who is questioning why the company should allocate anymore resources to the IT security team.
 
+**Unfortunately, my ScreenToGif program stopped working entirely and I didn't have time to try and fix it. Hopefully as a reasonable faccsimile, I have included screenshots fo the gcloud vm's running and the active sensors on the MHN-Admin machine**
+
+<img src="MHN-Admin_Screenshot.png">
+
+<img src="gcloud_screenshot.png">
+
+
 ### MHN-Admin Deployment (Required)
 
 **Summary:** I decided to follow the guide and use gcloud to implement the virtual machines. It was nice to learn a little about how to use gcloud as it is something I have never used before. It was a little difficult at first, but once I understood the way gcloud is laid out, it was pretty simple.
 
-<img src="mhn-admin.gif">
 
 ### Dionaea Honeypot Deployment (Required)
 
 **Summary:** Dionaea is a honeypot that focusses on capturing the type of attacks as well as the signatures of malware those attacks attempt to use, if any.
 
-<img src="dionaea-honeypot.gif">
 
 ### Database Backup (Required) 
 
@@ -28,7 +33,6 @@
 
 **Summary:** Snort is a simple honeypot that captures traffic of incoming IP's that behave maliciously.
 
-<img src="x-honeypot.gif">
 
 ### Malware Capture and Identification (Optional)
 
@@ -38,7 +42,6 @@
 
 MD5 Hash: 6e72ad805b4322612b9c9c7673a45635
 
-<img src="x-malware.gif">
 
 ## Notes
 
