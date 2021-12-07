@@ -42,6 +42,7 @@
 
 MD5 Hash: 6e72ad805b4322612b9c9c7673a45635
 
+<img src="MalwareAnalysis.gif">
 
 ## Notes
 
